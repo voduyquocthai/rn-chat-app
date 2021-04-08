@@ -16,6 +16,8 @@ export default {
 		user: {
 			id: 'u1',
 			name: 'Vadim',
+			imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg',
+
 		},
 	}, {
 		id: 'm2',
@@ -24,6 +26,8 @@ export default {
 		user: {
 			id: 'u2',
 			name: 'Lukas',
+			imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg',
+
 		},
 	}, {
 		id: 'm3',
@@ -32,6 +36,8 @@ export default {
 		user: {
 			id: 'u2',
 			name: 'Lukas',
+			imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg',
+
 		},
 	}, {
 		id: 'm4',
@@ -40,30 +46,38 @@ export default {
 		user: {
 			id: 'u1',
 			name: 'Vadim',
+			imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg',
+
 		},
 	}, {
 		id: 'm5',
 		content: 'How is your uni going?',
-		createdAt: '2020-10-03T14:51:00.000Z',
+		createdAt: '2021-04-08T14:51:00.000Z',
 		user: {
 			id: 'u1',
 			name: 'Vadim',
+			imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg',
+
 		},
 	}, {
 		id: 'm6',
 		content: 'It is a bit tough, as I have 2 specializations. How about yours? Do you enjoy it?',
-		createdAt: '2020-10-03T14:49:00.000Z',
+		createdAt: '2021-04-08T14:49:00.000Z',
 		user: {
 			id: 'u2',
 			name: 'Lukas',
+			imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg',
+
 		},
 	}, {
 		id: 'm7',
 		content: 'Big Data is really interesting. Cannot wait to go through all the material.',
-		createdAt: '2020-10-03T14:53:00.000Z',
+		createdAt: '2021-04-08T16:12:00.000Z',
 		user: {
 			id: 'u1',
 			name: 'Vadim',
+			imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg',
+
 		},
 	}]
 }

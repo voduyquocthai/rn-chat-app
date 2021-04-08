@@ -5,13 +5,16 @@ const styles = StyleSheet.create({
         width: 60,
         height: 60,
         borderRadius: 50,
-        marginRight: 10
+        marginRight: 10,
     },
     container: {
         flexDirection: 'row',
         width: "100%",
         justifyContent: 'space-between',
         padding: 10,
+        borderBottomWidth: 1,
+        borderBottomColor: "#DCDCDC",
+        borderBottomLeftRadius: 30,
     },
     leftContainer: {
         flexDirection: 'row',
@@ -26,7 +29,7 @@ const styles = StyleSheet.create({
         color: "grey",
     },
     time: {
-        fontSize: 16,
+        fontSize: 13,
         color: "grey",
     },
     middleContainer: {
@@ -34,6 +37,9 @@ const styles = StyleSheet.create({
         justifyContent: 'space-around',
         marginLeft: 10,
     },
+    rightContainer: {
+        flex: 1,
+    }
 
 });
 
